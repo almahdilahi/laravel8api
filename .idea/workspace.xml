@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1812cc45-8b87-46e5-84ba-9f7eb372a3b6" name="Default Changelist" comment="" />
+    <list default="true" id="1812cc45-8b87-46e5-84ba-9f7eb372a3b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Medecin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rendezvous.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_13_082449_create_medecins_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_13_082709_create_rendezvouses_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -161,7 +172,8 @@
       <workItem from="1602957867708" duration="95000" />
       <workItem from="1602957974138" duration="16000" />
       <workItem from="1602969305289" duration="807000" />
-      <workItem from="1602970220491" duration="1090000" />
+      <workItem from="1602970220491" duration="1564000" />
+      <workItem from="1602971809795" duration="15513000" />
     </task>
     <servers />
   </component>
@@ -169,6 +181,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602980121275">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.900@0.0.1600.900" timestamp="1602980121275" />
+    <state x="530" y="205" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602976082290">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="530" y="205" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.900@0.0.1600.900" timestamp="1602976082290" />
     <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1602753955342">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
