@@ -30,7 +30,7 @@
                                                 <i class="fa fa-edit"></i>
                                             </a>
 
-                                            <a href="{{ route('deletemedecin', ['id'=>$medecin->id]) }}" class="btn btn-danger btn-circle">
+                                            <a href="{{ route('deletemedecin', ['id'=>$medecin->id]) }}" onclick="return confirm('voulez-vous supprimer?');" class="btn btn-danger btn-circle">
 
                                                 <i class="fa fa-trash"></i>
                                             </a>

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1812cc45-8b87-46e5-84ba-9f7eb372a3b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/laravel8api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel8api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Medecin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Rendezvous.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_13_082449_create_medecins_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_13_082709_create_rendezvouses_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Hopital/MedecinController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Hopital/MedecinController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/medecin/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/medecin/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/medecin/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/medecin/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +136,13 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
     </include_path>
   </component>
   <component name="ProjectId" id="1inWHRCB43zVmQSDtUTNLxHSg9D" />
@@ -173,7 +183,9 @@
       <workItem from="1602957974138" duration="16000" />
       <workItem from="1602969305289" duration="807000" />
       <workItem from="1602970220491" duration="1564000" />
-      <workItem from="1602971809795" duration="15513000" />
+      <workItem from="1602971809795" duration="27964000" />
+      <workItem from="1603112889943" duration="5077000" />
+      <workItem from="1603364919310" duration="8009000" />
     </task>
     <servers />
   </component>
@@ -185,14 +197,14 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.900@0.0.1600.900" timestamp="1602980121275" />
-    <state x="530" y="205" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602976082290">
+    <state x="530" y="205" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603386069339">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="530" y="205" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.900@0.0.1600.900" timestamp="1602976082290" />
-    <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1602753955342">
+    <state x="530" y="205" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.900@0.0.1600.900" timestamp="1603386069339" />
+    <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1603096334493">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="580" y="205" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1602753955342" />
+    <state x="580" y="205" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1603096334493" />
     <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1602682468687">
       <screen x="0" y="0" width="1600" height="900" />
     </state>

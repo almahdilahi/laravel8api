@@ -11,14 +11,6 @@
                         {{ __('Formulaire d\'enregistrement des medecins') }}
                     </div>
                     <div class="card-body">
-                        @if(isset($confirmation))
-                            @if($confirmation == 1)
-                                <div class="alert alert-success">Medecin ajouté</div>
-
-                            @else
-                                <div class="alert alert-danger">Medecin non ajouté</div>
-                            @endif
-                        @endif
                       <form method="post" action="{{route('persistmedecin')}}">
                             @csrf
                         <div class="form-group">
@@ -48,8 +40,19 @@
 
 
 
-
-
+    <form class="form form-horizontal" action="{{ route('importcsvmedecin') }}" method="post">
+        <h6>Ajout Medecin par fichier csv</h6>
+    <div class="form-group">
+        <div class="col-md-12">
+            <input type="file" accept=".csv" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-12">
+            <button class="btn btn-primary" type="submit">Ajouter <span class="fas fa-upload"></span></button>
+        </div>
+    </div>
+    </form>
 
 
 

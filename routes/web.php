@@ -26,6 +26,7 @@ Route::get('/medecin/edit/{id}', [App\Http\Controllers\Hopital\MedecinController
 Route::get('/medecin/delete/{id}', [App\Http\Controllers\Hopital\MedecinController::class, 'delete'])->name('deletemedecin');
 Route::post('/medecin/update', [App\Http\Controllers\Hopital\MedecinController::class, 'update'])->name('updatemedecin');
 Route::get('/medecin/getAll', [App\Http\Controllers\Hopital\MedecinController::class, 'getAll'])->name('getallmedecin');
+Route::post('/medecin/importCsv', [App\Http\Controllers\Hopital\MedecinController::class, 'importCsv'])->name('importcsvmedecin');
 Route::post('/medecin/persist', [App\Http\Controllers\Hopital\MedecinController::class, 'persist'])->name('persistmedecin');
 
 Route::get('/rendezvous/add', [App\Http\Controllers\Hopital\RendezvousController::class, 'add'])->name('addrendezvous');

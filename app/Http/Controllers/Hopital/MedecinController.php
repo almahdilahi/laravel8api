@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Hopital;
 use App\Http\Controllers\Controller;
 use App\Models\Medecin;
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Excel;
 
 class MedecinController extends Controller
 {
@@ -22,20 +23,26 @@ class MedecinController extends Controller
 
     public function edit($id)
     {
-        return view('medecin.edit');
+        $medecin = Medecin::find($id);
+        return view('medecin.edit', ['medecin' => $medecin]);
     }
 
-    public function update($id)
+    public function update(Request $request)
     {
-        return $this->getAll();
+        $medecin = Medecin::find($request->id);
+        $medecin->nom = $request->nom;
+        $medecin->prenom = $request->prenom;
+        $medecin->telephone = $request->telephone;
+        $result = $medecin->save();
+        return redirect('/medecin/getAll');
     }
 
     public function delete($id)
     {
-        $etudiant = DB::table('gir_etudiant')->where('id','=',$id);
-        if($etudiant != null)
+        $medecin = Medecin::find($id);
+        if($medecin != null)
         {
-            $etudiant->delete();
+            $medecin->delete();
         }
         return $this->getAll();
     }
@@ -57,6 +64,12 @@ class MedecinController extends Controller
         return view('medecin.add',['confirmation' => $result]);
     }
 
+    public function importCsv(Request $request)
+    {
+        Excel::import(new Medecin,$request->file);
+
+        return "Record are imported successfully!";
+    }
 
 
 }
