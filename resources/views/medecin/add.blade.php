@@ -40,19 +40,35 @@
 
 
 
-    <form class="form form-horizontal" action="{{ route('importcsvmedecin') }}" method="post">
-        <h6>Ajout Medecin par fichier csv</h6>
-    <div class="form-group">
-        <div class="col-md-12">
-            <input type="file" accept=".csv" required>
+    <div class="container">
+
+        <div class="card bg-light mt-3">
+
+            <div class="card-header">
+
+                Import Excel to database
+
+            </div>
+
+            <div class="card-body">
+
+                <form action="{{ route('importcsvmedecin') }}" method="POST" enctype="multipart/form-data">
+
+                    @csrf
+
+                    <input type="file" name="med-csv" id="med-csv" accept=".csv" class="form-control">
+
+                    <br>
+
+                    <button class="btn btn-success">Import User Data</button>
+
+                </form>
+
+            </div>
+
         </div>
+
     </div>
-    <div class="form-group">
-        <div class="col-md-12">
-            <button class="btn btn-primary" type="submit">Ajouter <span class="fas fa-upload"></span></button>
-        </div>
-    </div>
-    </form>
 
 
 

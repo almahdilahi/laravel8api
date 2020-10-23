@@ -3,9 +3,10 @@
 namespace App\Http\Controllers\Hopital;
 
 use App\Http\Controllers\Controller;
+use App\Imports\MedecinsImport;
 use App\Models\Medecin;
 use Illuminate\Http\Request;
-use Maatwebsite\Excel\Excel;
+use Maatwebsite\Excel\Facades\Excel;
 
 class MedecinController extends Controller
 {
@@ -64,11 +65,15 @@ class MedecinController extends Controller
         return view('medecin.add',['confirmation' => $result]);
     }
 
+    /**
+
+     * @return \Illuminate\Support\Collection
+
+     */
     public function importCsv(Request $request)
     {
-        Excel::import(new Medecin,$request->file);
-
-        return "Record are imported successfully!";
+        Excel::import(new MedecinsImport(),$request->file('med-csv'));
+        return "cool";
     }
 
 

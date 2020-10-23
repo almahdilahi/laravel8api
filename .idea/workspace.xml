@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1812cc45-8b87-46e5-84ba-9f7eb372a3b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel8api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel8api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Hopital/MedecinController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Hopital/MedecinController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/medecin/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/medecin/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/medecin/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/medecin/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pedagogie" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -186,6 +180,8 @@
       <workItem from="1602971809795" duration="27964000" />
       <workItem from="1603112889943" duration="5077000" />
       <workItem from="1603364919310" duration="8009000" />
+      <workItem from="1603440939601" duration="782000" />
+      <workItem from="1603441949465" duration="8873000" />
     </task>
     <servers />
   </component>
@@ -201,10 +197,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="530" y="205" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.900@0.0.1600.900" timestamp="1603386069339" />
-    <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1603096334493">
+    <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1603447764706">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="580" y="205" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1603096334493" />
+    <state x="580" y="205" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1603447764706" />
     <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1602682468687">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
