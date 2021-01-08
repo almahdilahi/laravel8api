@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1812cc45-8b87-46e5-84ba-9f7eb372a3b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Hopital/MedecinController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Hopital/MedecinController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/medecin/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/medecin/add.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pedagogie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -181,7 +179,10 @@
       <workItem from="1603112889943" duration="5077000" />
       <workItem from="1603364919310" duration="8009000" />
       <workItem from="1603440939601" duration="782000" />
-      <workItem from="1603441949465" duration="8873000" />
+      <workItem from="1603441949465" duration="19846000" />
+      <workItem from="1603700608476" duration="2191000" />
+      <workItem from="1603902045104" duration="33000" />
+      <workItem from="1603903521664" duration="54000" />
     </task>
     <servers />
   </component>
@@ -197,10 +198,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="530" y="205" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.900@0.0.1600.900" timestamp="1603386069339" />
-    <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1603447764706">
+    <state x="580" y="205" key="FileChooserDialogImpl" timestamp="1603700731205">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="580" y="205" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1603447764706" />
+    <state x="580" y="205" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1603700731205" />
     <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1602682468687">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
